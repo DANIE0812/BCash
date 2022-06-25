@@ -99,16 +99,17 @@ body {
 
 .getstarted {
     background: url(img/Group.png);
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-position-y: center;
+    background-position-x: left;
+    background-size: 70%;
     margin-left: 4rem;
-    width: 50%;
+    width: 45%;
 }
 
 .setup h1 {
     font-size: 4rem;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .article {
@@ -139,36 +140,43 @@ body {
     margin: 5px 2px;
 }
 
-
+.two {
+    background-color: #00A3FF;
+}
 
 
 /************** Saving ****************/
 .saving {
+    height: 75vh;
     display: flex;
+    align-content: center;
     justify-content: space-between;
 }
 
 .saving h1 {
     color:  #00A3FF;
-    font-size: 50px;
-    margin: 150px auto 5px;
+    font-size: 4rem;
+    margin: 100px 0px 5px 0px;
 }
 
 .saving p {
-    font-size: 23px;
+    font-size: 1.45rem;
+    line-height: 35px;
     color: rgb(61, 61, 68);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.save {
+    margin-left: 4rem;
 }
 
 .saving-img {
-    margin: 50px auto;
-    max-width: 100%;
-    height: 40%;
+    margin: 1.5rem 8rem 1rem 0;
 }
 
 
-/************** Vision ****************/
 
+/************** Vision ****************/
 .vision {
     position: relative;
     justify-content: space-evenly;
@@ -201,20 +209,12 @@ body {
 
 
 /************** Footer ****************/
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 5%;
-}
-
 footer a {
     text-decoration: none;
 }
 
 footer ul li {
-    list-style-type: none;
+    list-style: none;
     margin: 30px 40px;
     text-align: right;
 }
