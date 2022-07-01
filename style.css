@@ -87,10 +87,9 @@ body {
 }
 
 
-
 /************** Getting Started ****************/
 .setup {
-    height: 75vh;
+    height: 80vh;
     display: flex;
     justify-content: space-between;
     background-color: #2C32BE;
@@ -173,7 +172,6 @@ body {
 .saving-img {
     margin: 1.5rem 8rem 1rem 0;
 }
-
 
 
 /************** Vision ****************/
