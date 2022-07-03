@@ -53,6 +53,16 @@ body {
     padding: .25rem .5rem;
 }
 
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    user-select: none;
+}
+
 
 /************** Introduction ****************/
 .hero {
@@ -216,3 +226,215 @@ footer ul li {
     text-align: right;
 }
 
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+    .navbar {
+        margin: 1rem 1.5rem;
+    }
+
+    .navbar img {
+        width: 120px;
+        height: 30px;
+    }
+
+    .navlinks ul {
+        display: none;
+        background-color: #fff;
+        right: 0;
+        left: 0;
+        text-align: right;
+        padding: 10px 0;   
+    }
+
+    .navlinks li:hover {
+        display: inline-block;
+        background-color: #000;
+        transition: 0. 3s ease;
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    .navlinks li {
+        list-style: none;
+        font-size: .5rem;
+        text-transform: uppercase;
+        margin: 0px .8rem;
+    }
+
+    .navlinks a:hover {
+        border-radius: 5px;
+        font-size: .85rem;
+        background-color: #2C32BE;
+        border: 1px solid #2C32BE;
+        color: #fff;
+        padding: .25rem .5rem;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+    /************** Introduction ****************/
+    .hero {
+        background-image: url(img/illustration-0.png);
+        background-position: center;
+        height: 35vh;
+        background-size: 95%;
+        margin: 1rem 1.5rem;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .hero p {
+        font-size: .8rem;
+        padding-top: 1.5rem;
+    }
+
+    .links img {
+        width: 100px;
+        height: 30px;
+        margin: 20px 2px 0 2px;
+    }
+
+
+    /************** Getting Started ****************/
+    .setup {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #2C32BE;
+        color: #fff;
+    }
+
+    .getstarted {
+        background: url(img/Group.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: left;
+        background-size: 40%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .setup h1 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .article {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .list span {
+        font-size: 3rem;
+    }
+
+    .list h2 {
+        font-size: 1rem;
+        font-weight: bolder;
+        margin: 2px 1px;
+    }
+
+    .list p {
+        font-size: .45rem;
+        margin: 5px 2px;
+    }
+
+    .two {
+        background-color: #00A3FF;
+    }
+
+
+    /************** Saving ****************/
+    .saving {
+        height: 75vh;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+
+    .saving h1 {
+        color:  #00A3FF;
+        font-size: 4rem;
+        margin: 100px 0px 5px 0px;
+    }
+
+    .saving p {
+        font-size: 1.45rem;
+        line-height: 35px;
+        color: rgb(61, 61, 68);
+        margin-bottom: 15px;
+    }
+
+    .save {
+        margin-left: 4rem;
+    }
+
+    .saving-img {
+        margin: 1.5rem 8rem 1rem 0;
+    }
+
+
+    /************** Vision ****************/
+    .vision {
+        position: relative;
+        justify-content: space-evenly;
+        background-color:#2C32BE ;
+        color: #fff;
+        border-radius: 35px;
+        text-align: center;
+        margin: 30px 100px;
+    }
+
+    .vision h1 {
+        font-size: 50px;
+        padding: 40px 5px 10px 5px;
+    }
+
+    .vision p {
+        font-size: 23px;
+        padding: 20px;
+    }
+
+    .icon-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons {
+        font-size: 15px;
+        padding: 40px;
+    }
+
+
+    /************** Footer ****************/
+    footer a {
+        text-decoration: none;
+    }
+
+    footer ul li {
+        list-style: none;
+        margin: 30px 40px;
+        text-align: right;
+    }
+}
