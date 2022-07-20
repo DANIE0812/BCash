@@ -229,7 +229,6 @@ footer ul li {
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
-
     .navbar {
         margin: 1rem 1.5rem;
     }
