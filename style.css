@@ -79,7 +79,7 @@ input[type=checkbox] {
 .hero h1 {
     font-size: 3rem;
     color: #2C32BE;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .hero p {
@@ -92,6 +92,10 @@ input[type=checkbox] {
     width: 130px;
     height: 40px;
     margin: 20px 5px 0 5px;
+}
+
+.menu a {
+    color:  #2C32BE; 
 }
 
 
