@@ -22,30 +22,36 @@ body {
 /************** Header ****************/
 .navbar {
     display: flex;
-    /* align-items: center;
-    justify-content: space-between; */
+    align-items: center;
+    justify-content: space-between;
     margin: 1rem 4rem;
 }
 
 .navlinks ul {
-    display: flex;   
+    display: flex;
 }
 
-.navlinks li {
+.menu li {
     list-style: none;
-    margin: 0px .5rem;
-    font-size: 1rem;
     text-transform: uppercase;
+    margin: 0 .7rem;
+    text-decoration: none;
+    color:  #2C32BE; 
 }
 
-.navlinks a:hover {
+.menu a {
+    text-decoration: none;
+    font-size: .8rem;
+    color:  #2C32BE; 
+}
+
+.menu a:hover {
     border-radius: 5px;
     font-size: .7rem;
     background-color: #2C32BE;
-    border: 1px solid #2C32BE;
     color: #fff;
-    margin: 0px .4rem;
     padding: .3rem .4rem;
+    transition: all  ease;
 }
 
 input[type=checkbox] {
@@ -88,13 +94,6 @@ input[type=checkbox] {
     width: 130px;
     height: 40px;
     margin: 20px 5px 0 5px;
-}
-
-.menu a {
-    text-decoration: none;
-    color:  #2C32BE; 
-    font-size: .85rem;
-    margin: 0px .5rem;
 }
 
 
