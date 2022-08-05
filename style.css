@@ -6,7 +6,6 @@
 /* Blue #2C32BE */
 /* Skyblue #00A3FF */
 
-
 * {
     margin: 0;
     padding: 0;
@@ -203,6 +202,7 @@ input[type=checkbox] {
 
 .vision p {
     font-size: 23px;
+    line-height: 30px;
     padding: 20px;
 }
 
@@ -214,6 +214,10 @@ input[type=checkbox] {
 .icons {
     font-size: 15px;
     padding: 40px;
+}
+
+.icons h4{
+    margin: 10px 0px;
 }
 
 
