@@ -6,6 +6,8 @@
 /* Blue #2C32BE */
 /* Skyblue #00A3FF */
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -231,6 +233,11 @@ footer ul li {
     margin: 30px 40px;
     text-align: right;
 }
+
+.socials a {
+    margin: 0px 10px;
+}
+
 
 
 
