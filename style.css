@@ -299,13 +299,13 @@ footer ul li {
         background-image: url(img/illustration-0.png);
         background-position: center;
         height: 35vh;
-        background-size: 95%;
+        background-size: 100%;
         margin: 1rem 1.5rem;
     }
 
     .hero h1 {
         font-size: 1.5rem;
-        margin-top: 2rem;
+        margin-top: 1.7rem;
     }
 
     .hero p {
@@ -314,7 +314,7 @@ footer ul li {
     }
 
     .links img {
-        width: 100px;
+        width: 90px;
         height: 30px;
         margin: 20px 2px 0 2px;
     }
@@ -326,6 +326,7 @@ footer ul li {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
         background-color: #2C32BE;
         color: #fff;
     }
