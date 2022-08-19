@@ -322,23 +322,17 @@ footer ul li {
 
     /************** Getting Started ****************/
     .setup {
-        height: 80vh;
+        height: 65vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-color: #2C32BE;
-        color: #fff;
     }
 
     .getstarted {
-        background: url(img/Group.png);
-        background-repeat: no-repeat;
-        background-position-y: center;
-        background-position-x: left;
-        background-size: 40%;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        background: none;
+        margin-left: .4rem;
+        margin-right: .4rem;
     }
 
     .setup h1 {
@@ -347,8 +341,8 @@ footer ul li {
     }
 
     .article {
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        margin-left: .4rem;
+        margin-right: .4rem;
     }
 
     .list {
@@ -368,42 +362,39 @@ footer ul li {
     }
 
     .list p {
-        font-size: .45rem;
+        font-size: .6rem;
         margin: 5px 2px;
-    }
-
-    .two {
-        background-color: #00A3FF;
     }
 
 
     /************** Saving ****************/
     .saving {
-        height: 75vh;
+        height: 40vh;
         display: flex;
+        flex-direction: column;
         align-content: center;
-        justify-content: space-between;
     }
 
     .saving h1 {
         color:  #00A3FF;
-        font-size: 4rem;
-        margin: 100px 0px 5px 0px;
+        font-size: 2rem;
+        margin-top: 35px;
     }
 
     .saving p {
-        font-size: 1.45rem;
-        line-height: 35px;
+        font-size: .8rem;
+        line-height: 20px;
         color: rgb(61, 61, 68);
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .save {
-        margin-left: 4rem;
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
     }
 
     .saving-img {
-        margin: 1.5rem 8rem 1rem 0;
+        display: none;
     }
 
 
