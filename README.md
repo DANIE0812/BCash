@@ -8,7 +8,6 @@ Frontend Project
 
 Recreate Blinkcash website https://my.blinkcash.ng/
 
-
 # Frontend Mentor - QR code component
 
 ## Welcome! 👋
