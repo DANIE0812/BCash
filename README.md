@@ -91,7 +91,6 @@ Code snippets:
 ## Author
 
 - GitHub - [@Danie0812](https://github.com/DANIE0812)
-- Frontend Mentor - [@Danie0812](https://www.frontendmentor.io/profile/DANIE0812)
 - Twitter - [@MrEffiom](https://twitter.com/MrEffiom)
 
 ## Acknowledgments
