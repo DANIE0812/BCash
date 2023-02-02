@@ -1,9 +1,5 @@
 # BCash
 
-
-
-
-
 Frontend Project
 
 ## The Project
