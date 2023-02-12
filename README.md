@@ -12,8 +12,6 @@ Worked on the QR-code component challenge on Frontend Mentor. This was very exis
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, a basic understanding of HTML and CSS was required.**
-
 ## Table of contents
 
 - [Overview](#overview)
