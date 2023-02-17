@@ -94,4 +94,3 @@ Code snippets:
 ## Acknowledgments
 
 Special thanks to Melvin Aguilar 🧑🏻‍💻 (@MelvinAguilar) on frontend mentor for the corrections and insights.
-
