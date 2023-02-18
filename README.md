@@ -17,7 +17,6 @@ Worked on the QR-code component challenge on Frontend Mentor. This was very exis
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -35,10 +34,6 @@ The challenge was to build out a QR code component and get it looking as close t
 
 ![](./images/my_solution-preview.png)
 
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-9WAn0C5aOM]
-- Live Site URL: [https://danie0812.github.io/QR-code-component/]
 
 ## My process
 
