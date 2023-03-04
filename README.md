@@ -1,6 +1,6 @@
 # BCash
 
-Frontend Project
+Frontend Dev Project
 
 ## The Project
 
