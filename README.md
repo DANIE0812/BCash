@@ -8,7 +8,7 @@ Recreate Blinkcash website https://my.blinkcash.ng/
 
 ## Welcome! 👋
 
-Worked on the QR-code component challenge on Frontend Mentor. This was very existing and my first front-end coding challenge.
+Worked on the QR-code component challenge on Frontend Mentor. This was very existing and my first front-end coding challenge
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
