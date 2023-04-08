@@ -23,7 +23,7 @@ Worked on the QR-code component challenge on Frontend Mentor. This was very exis
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments) 
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 ### The challenge
