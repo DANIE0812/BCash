@@ -52,7 +52,7 @@ The challenge was to build out a QR code component and get it looking as close t
 
 - If the image is not a decoration like in the case of this project, it must have an alt attribute. The alt attribute should explain its purpose.
 
-- Instead of using pixels in font-size, used relative units (em or rem). The font-size in absolute units like pixels does not scale with the user's browser settings. This can cause accessibility issues for users who have set their browser to use a larger font size. More about this [here](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)
+- Instead of using pixels in font-size, used relative units (em or rem). The font-size in absolute units like pixels does not scale with the user's browser settings. This can cause accessibility issues for users who have set their browser to use a larger font size. More about this [here](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/).
 
 Code snippets:
 
