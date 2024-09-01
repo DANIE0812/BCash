@@ -1,6 +1,4 @@
-# BCash
-
-
+# BCash App
 
 
 Frontend Project
