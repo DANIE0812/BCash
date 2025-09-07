@@ -1,9 +1,8 @@
 # BCash
 
-
 ## The Project
 
-Recreate Blinkcash website https://my.blinkcash.ng/
+Recreate [Blinkcash website](https://my.blinkcash.ng/)
 
 ## Welcome! 👋
 
@@ -25,14 +24,14 @@ Worked on the QR-code component challenge on Frontend Mentor. This was very exis
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+
 ### The challenge
 
 The challenge was to build out a QR code component and get it looking as close to the mobile and desktop design in the starter kit provided.
 
 ### Screenshot
 
-![](./images/my_solution-preview.png)
-
+![Screenshot of QR code component solution](./images/my_solution-preview.png)
 
 ## My process
 
@@ -47,17 +46,18 @@ The challenge was to build out a QR code component and get it looking as close t
 
 - Using a level-one heading (h1) even though it wasn't a full-page challenge. I  created an h1 element within the main element that was hidden visually but visible and readable by screen readers. The class sr-only hid the content visually.
 
-- Don't skip heading levels; Always start from h1, followed by h2, and so on up to h6 (h1,h2,...,h6). 
+- Don't skip heading levels; Always start from h1, followed by h2, and so on up to h6 (h1,h2,...,h6).
 
 - If the image is not a decoration like in the case of this project, it must have an alt attribute. The alt attribute should explain its purpose.
 
-- Instead of using pixels in font-size, used relative units (em or rem). The font-size in absolute units like pixels does not scale with the user's browser settings. This can cause accessibility issues for users who have set their browser to use a larger font size. More about this [here](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)
+- Instead of using pixels in font-size, used relative units (em or rem). The font-size in absolute units like pixels does not scale with the user's browser settings. This can cause accessibility issues for users who have set their browser to use a larger font size. Learn more about this in [Josh W. Comeau's article on pixels and accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)
 
 Code snippets:
 
 ```html
 <h1 class="sr-only">QR Card Component</h1>
 ```
+
 ```css
 .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0); 
@@ -69,6 +69,7 @@ Code snippets:
     width: 1px;
 }
 ```
+
 ### Continued development
 
 - Responsive Web Design
