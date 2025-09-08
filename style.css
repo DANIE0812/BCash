@@ -70,7 +70,7 @@ input[type=checkbox] {
     background-image: url(img/illustration-0.png);
     background-position: center;
     height: 65vh;
-    background-size: 70%; 
+    background-size: 85%; 
     background-repeat: no-repeat;
     align-content: center;
     justify-content: center;
@@ -81,7 +81,7 @@ input[type=checkbox] {
 .hero h1 {
     font-size: 3rem;
     color: #2C32BE;
-    margin-top: 5rem;
+    margin-top: 0.1rem;
 }
 
 .hero p {
